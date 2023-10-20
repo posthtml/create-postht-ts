@@ -7,11 +7,10 @@ const {writeFileSync} = require('fs')
 const template = `import fs from "fs"
 import posthtml from "posthtml"
 
-const html = fs.readFileSync('index.html', 'utf-8')
-const plugins = []
+const html = fs.readFileSync("index.html", "utf-8");
 const options = {}
 
-posthtml(plugins)
+posthtml()
   .process(html, options)
   .then((result) =>  console.log(result.html))`
 const html = `<!DOCTYPE html>
