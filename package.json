@@ -1,11 +1,11 @@
 {
-  "name": "create-posthtml",
-  "version": "0.0.1",
-  "description": "Add PostHTML to your project",
-  "repository": "posthtml/create-posthtml",
-  "homepage": "https://posthtml/create-posthtml#readme",
-  "bugs": "posthtml/create-posthtml/issues",
-  "readme": "posthtml/create-posthtml/readme",
+  "name": "create-posthtml-ts",
+  "version": "0.0.0",
+  "description": "Create your first PostHTML project on TypeScript",
+  "repository": "posthtml/create-posthtml-ts",
+  "homepage": "https://posthtml/create-posthtml-ts#readme",
+  "bugs": "posthtml/create-posthtml-ts/issues",
+  "readme": "posthtml/create-posthtml-ts/readme",
   "bin": "cli.js",
   "files": [
     "index.js",
@@ -24,7 +24,10 @@
     "generate",
     "generator",
     "scaffold",
-    "posthtml"
+    "posthtml",
+    "posthtml-ts",
+    "typescript",
+    "cli"
   ],
   "author": {
     "name": "Ivan Demidov",
@@ -43,6 +46,7 @@
     "@commitlint/config-angular": "^11.0.0",
     "conventional-changelog-cli": "^2.0.35",
     "husky": "^4.2.5",
+    "posthtml": "^0.16.7-beta.0",
     "xo": "^0.33.1"
   },
   "collective": {
